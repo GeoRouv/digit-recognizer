@@ -1,4 +1,4 @@
-# Digit-Recognizer
+# digit-recognizer
 An image classifier CNN to recognise handwritten digits.
 
 ## Data Preparation
