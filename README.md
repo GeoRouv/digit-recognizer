@@ -25,9 +25,12 @@ quently, pixel values are scaled to the range 0-1.
 ### Configuration
 • 1 2D-Convolution Layer: (3,3) is the dimensionality space of output, ReLU is the
 activation function. HE initializer performs better than normal that's why is selected.  
+  
 • 1 Max-Pooling Layer: Downsampling of data
+  
 • 1 Flatten Layer: Data is attened so it can be passed to dense layer (keeping 1
 dimension)  
+  
 • 2 Dense Layers: Dense layers are used when association can exist among any feature
 to any other feature in data point. Since between two layers of size n1 and n2, there
 can n1n2 connections and these are referred to as Dense. The first one contains a
